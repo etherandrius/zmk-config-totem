@@ -43,7 +43,7 @@
             //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
             //             ┃ NAV + A   ┃ ALT + S   ┃ CTRL + D  ┃ CMD + F   ┃     G     ┃   ┃     H     ┃ CMD + J   ┃ CTRL + K  ┃ ALT + S   ┃     ;     ┃
             // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃     ,     ┃ NUM + Z   ┃     X     ┃     C     ┃ NUM + V   ┃     B     ┃   ┃     N     ┃     M     ┃  ENTER    ┃   TAB     ┃    ESC    ┃     .     ┃
+            // ┃    SPC    ┃ NUM + Z   ┃     X     ┃     C     ┃ NUM + V   ┃     B     ┃   ┃     N     ┃     M     ┃  ENTER    ┃   TAB     ┃    ESC    ┃    BSCP   ┃
             // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
             //                                     ┃   ADJUST  ┃   SHIFT   ┃    SPC    ┃   ┃    BSCP   ┃    SYM    ┃    FN     ┃
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -51,7 +51,7 @@
             bindings = <
            &kp Q    &kp W           &kp E        &kp R               &kp T        &kp Y          &kp U                &kp I        &kp O            &kp P
            &lt 1 A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_COMMAND F  &kp G        &kp H          &mt RIGHT_COMMAND J  &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMICOLON
-&kp COMMA  &lt 3 Z  &kp X           &kp C        &lt 3 V             &kp B        &kp N          &kp M                &kp ENTER    &kp TAB          &kp ESCAPE  &kp DOT
+&kp SPACE  &lt 3 Z  &kp X           &kp C        &lt 3 V             &kp B        &kp N          &kp M                &kp ENTER    &kp TAB          &kp ESCAPE  &kp BACKSPACE
                                     &none        &sk LEFT_SHIFT      &kp SPACE    &kp BACKSPACE  &sl 2                &mo 4
             >;
         };
